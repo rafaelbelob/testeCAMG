@@ -10,7 +10,6 @@ $qtd = $res->num_rows;
 if ($qtd > 0) {
     print "<table class='table table-hover table-bordered text-light'>";
     print "<tr>";
-    print "<th class='text-light'> # </th>";
     print "<th class='text-light'>Nome</th>";
     print "<th class='text-light'>E-Mail</th>";
     print "<th class='text-light'>Data de Nascimento</th>";
@@ -19,7 +18,6 @@ if ($qtd > 0) {
 
     while ($row = $res->fetch_object()) {
         print "<tr>";
-        print "<td>" . $row->id . "</td>";
         print "<td>" . $row->nome . "</td>";
         print "<td>" . $row->email . "</td>";
         echo "<td>" . $row->data_nasc . "</td>";
