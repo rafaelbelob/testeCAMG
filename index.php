@@ -8,14 +8,7 @@
   <link rel="icon" type="image/png" href="IMG/BRASÃO-PRINCIPAL.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
-<style>
-  body{
-  border: 1px solid;
-  background-image: url(logolc.png);
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  }
-</style>
+
 <div class="p-3 mb-2 bg-dark text-white bg-opacity-75">
 <body>
 <nav class="navbar bg-light hstack gap-3 ">
@@ -70,6 +63,23 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 <footer>
+  <style>
+    body{
+    background-color: #060606;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+
+  }
+  footer{
+    color: white;
+    text-align: center;
+    font-family: "Helvetica neue", sans-serif;
+    
+  }
+   </style>
 <div class="rounded float-none ">
   <img src="IMG/bb.jpg" class="fixed-bottom rounded float-none" title="© BB" width="100px">
 </div>

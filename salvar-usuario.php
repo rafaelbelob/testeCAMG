@@ -6,8 +6,11 @@ switch ($_REQUEST["acao"]) {
         $email = $_POST["email"];
         $senha = md5($_POST["senha"]);
         $data_nasc = $_POST["data_nasc"];
+        
+        
 
         $sql = "INSERT INTO usuarios (nome,email, senha , data_nasc) VALUES('{$nome}', '{$email}' , '{$senha}' , '{$data_nasc}')";
+        
         $res = $conn->query($sql);
 
 

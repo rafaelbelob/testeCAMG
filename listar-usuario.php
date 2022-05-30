@@ -5,8 +5,10 @@ $sql = "SELECT * FROM usuarios";
 
 $res = $conn->query($sql);
 $qtd = $res->num_rows;
+
+
 if ($qtd > 0) {
-    print "<table class='table table-hover table-striped table-bordered text-light'>";
+    print "<table class='table table-hover table-bordered text-light'>";
     print "<tr>";
     print "<th class='text-light'> # </th>";
     print "<th class='text-light'>Nome</th>";
@@ -20,7 +22,7 @@ if ($qtd > 0) {
         print "<td>" . $row->id . "</td>";
         print "<td>" . $row->nome . "</td>";
         print "<td>" . $row->email . "</td>";
-        print "<td>" . $row->data_nasc . "</td>";
+        echo "<td>" . $row->data_nasc . "</td>";
 
         print "<td>
         <button onclick=\"location.href='?page=editar&id=" . $row->id . "';\" class ='btn btn-success'>Editar</button>
